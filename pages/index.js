@@ -4,14 +4,15 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>BoilerPlate for Nextjs Tailwind CSS App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to BoilerPlate for Nextjs Tailwind CSS App
         </h1>
+        <img className='image' src="logo.png"></img>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
@@ -67,6 +68,10 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+        }
+        image{
+          width: 60%;
+          height: 40%
         }
 
         main {
